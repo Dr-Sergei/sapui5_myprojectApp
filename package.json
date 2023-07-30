@@ -1,0 +1,22 @@
+{
+  "name": "new-openui5-project",
+  "version": "1.0.0",
+  "author": "SAP SE",
+  "description": "OpenSaP - Developing Web Apps with SAPUI5",
+  "scripts": {
+    "start": "ui5 serve",
+    "build": "ui5 build"
+  },
+  "dependencies": {
+    "@openui5/themelib_sap_fiori_3": "^1"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^3",
+    "@sap/ux-ui5-tooling": "1.10.2"
+  },
+  "ui5": {
+    "dependencies": [
+      "@sap/ux-ui5-tooling"
+    ]
+  }
+}
